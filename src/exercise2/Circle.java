@@ -10,7 +10,7 @@ public class Circle {
      double Pi = 3.14;
      double r = input.nextDouble();
      double C = 2*Pi*r;
-     double A = Pi*r*r;
+     double A = Pi*(r*r);
 
      System.out.println("Circumference: " + C);
      System.out.println("Area: " + A );
