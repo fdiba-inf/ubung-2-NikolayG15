@@ -7,7 +7,7 @@ public class Circle {
     public static void main(String[] args) {
       Scanner input = new Scanner(System.in);
 
-     double Pi = 3.14;
+     double Pi = Math.PI;
      double r = input.nextDouble();
      double C = 2*Pi*r;
      double A = Pi*(r*r);
