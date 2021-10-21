@@ -23,6 +23,9 @@ public class QuadraticEquation {
            x2 = ((b * -1) - Math.sqrt(D)) / (2*a);
            System.out.println(x1);
            System.out.println(x2);
+         } else {
+           System.out.println("Imaginary values");
+         }
 
          } else {
            if(b != 0) {
@@ -46,4 +49,4 @@ public class QuadraticEquation {
         
     }
 
-}
+
